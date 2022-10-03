@@ -13,12 +13,13 @@
 --	J::::::J   J::::::J   i::::i m::::m   m::::m   m::::mssssss   s:::::s       t:::::t    tttttte:::::::e            r:::::r            	     
 --	J:::::::JJJ:::::::J  i::::::im::::m   m::::m   m::::ms:::::ssss::::::s      t::::::tttt:::::te::::::::e           r:::::r            	     
 --   JJ:::::::::::::JJ   i::::::im::::m   m::::m   m::::ms::::::::::::::s       tt::::::::::::::t e::::::::eeeeeeee   r:::::r            	     
---	   JJ:::::::::JJ     i::::::im::::m   m::::m   m::::m s:::::::::::ss          tt:::::::::::tt  ee:::::::::::::e   r:::::r            	     
+--     JJ:::::::::JJ     i::::::im::::m   m::::m   m::::m s:::::::::::ss          tt:::::::::::tt  ee:::::::::::::e   r:::::r            	     
 --	     JJJJJJJJJ       iiiiiiiimmmmmm   mmmmmm   mmmmmm  sssssssssss              ttttttttttt      eeeeeeeeeeeeee   rrrrrrr         
 
 
-local Buttons = script.Parent.Parent.Cosmetics.Buttons
 
+--Dictionary
+local Buttons = script.Parent.Parent.Cosmetics.Buttons
 
 local 1 = Buttons.Numbers["1"]
 local 2 = Buttons.Numbers["2"]
@@ -40,9 +41,25 @@ local sub = Buttons.Arithmetic["-"]
 local mul = Buttons.Arithmetic["x"]
 local div = Buttons.Arithmetic["/"]
 
+--Strings
+local x = "none"
+local y = "none"
+local equation = "none"
+local currentStep = "none"
+local ASMD = "none"
+local numberEntered = false
+
+
+
+--Script
 
 1.MouseButton1Click:Connect(function(1)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 1
     
+    end
 end)
 
 2.MouseButton1Click:Connect(function(2)
@@ -53,59 +70,59 @@ end)
     
 end)
 
-1.MouseButton1Click:Connect(function(4)
+4.MouseButton1Click:Connect(function(4)
     
 end)
 
-1.MouseButton1Click:Connect(function(5)
+5.MouseButton1Click:Connect(function(5)
     
 end)
 
-1.MouseButton1Click:Connect(function(6)
+6.MouseButton1Click:Connect(function(6)
     
 end)
 
-1.MouseButton1Click:Connect(function(7)
+7.MouseButton1Click:Connect(function(7)
     
 end)
 
-1.MouseButton1Click:Connect(function(8)
+8.MouseButton1Click:Connect(function(8)
     
 end)
 
-1.MouseButton1Click:Connect(function(9)
+9.MouseButton1Click:Connect(function(9)
     
 end)
 
-1.MouseButton1Click:Connect(function(0)
+0.MouseButton1Click:Connect(function(0)
     
 end)
 
-1.MouseButton1Click:Connect(function(Period)
+period.MouseButton1Click:Connect(function(Period)
     
 end)
 
-1.MouseButton1Click:Connect(function(Negate)
+negate.MouseButton1Click:Connect(function(Negate)
     
 end)
 
-1.MouseButton1Click:Connect(function(Fraction)
+fraction.MouseButton1Click:Connect(function(Fraction)
     
 end)
 
-1.MouseButton1Click:Connect(function(Add)
+add.MouseButton1Click:Connect(function(Add)
     
 end)
 
-1.MouseButton1Click:Connect(function(Sub)
+sub.MouseButton1Click:Connect(function(Sub)
     
 end)
 
-1.MouseButton1Click:Connect(function(Mul)
+mul.MouseButton1Click:Connect(function(Mul)
     
 end)
 
-1.MouseButton1Click:Connect(function(Div)
+div.MouseButton1Click:Connect(function(Div)
     
 end)
 

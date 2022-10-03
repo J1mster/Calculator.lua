@@ -21,16 +21,16 @@
 --Dictionary
 local Buttons = script.Parent.Parent.Cosmetics.Buttons
 
-local 1 = Buttons.Numbers["1"]
-local 2 = Buttons.Numbers["2"]
-local 3 = Buttons.Numbers["3"]
-local 4 = Buttons.Numbers["4"]
-local 5 = Buttons.Numbers["5"]
-local 6 = Buttons.Numbers["6"] 
-local 7 = Buttons.Numbers["7"]
-local 8 = Buttons.Numbers["8"]
-local 9 = Buttons.Numbers["9"]
-local 0 = Buttons.Numbers["0"]
+local one = Buttons.Numbers["1"]
+local two = Buttons.Numbers["2"]
+local three = Buttons.Numbers["3"]
+local four = Buttons.Numbers["4"]
+local five = Buttons.Numbers["5"]
+local six = Buttons.Numbers["6"] 
+local seven = Buttons.Numbers["7"]
+local eight = Buttons.Numbers["8"]
+local nine = Buttons.Numbers["9"]
+local zero = Buttons.Numbers["0"]
 
 local period = Buttons.EditVariables["."]
 local negate = Buttons.EditVariables["-"]
@@ -53,9 +53,13 @@ local numberEntered = false
 
 --Script
 
-1.MouseButton1Click:Connect(function(1)
+one.MouseButton1Click:Connect(function(oneClick)
     if numberEntered == false then
-        
+        if x == ""
+            
+            
+            
+            
         numberEntered = true
         x = 1
     
@@ -64,45 +68,142 @@ local numberEntered = false
         if y = "none" then
             
             y = 1
-            
         end
     end
 end)
 
-2.MouseButton1Click:Connect(function(2)
+two.MouseButton1Click:Connect(function(twoClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 2
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 2
+        end
+    end
 end)
 
-3.MouseButton1Click:Connect(function(3)
+three.MouseButton1Click:Connect(function(threeClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 3
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 3
+        end
+    end
 end)
 
-4.MouseButton1Click:Connect(function(4)
+four.MouseButton1Click:Connect(function(fourClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 4
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 4
+        end
+    end
 end)
 
-5.MouseButton1Click:Connect(function(5)
+five.MouseButton1Click:Connect(function(fiveClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 5
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 5
+        end
+    end
+end
+six.MouseButton1Click:Connect(function(sixClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 6
+    
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 6
+        end
+    end
 end)
 
-6.MouseButton1Click:Connect(function(6)
+seven.MouseButton1Click:Connect(function(sevenClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 7
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 7
+        end
+    end
 end)
 
-7.MouseButton1Click:Connect(function(7)
+eight.MouseButton1Click:Connect(function(eightClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 8
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 8
+        end
+    end
 end)
 
-8.MouseButton1Click:Connect(function(8)
+nine.MouseButton1Click:Connect(function(nineClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 9
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 9
+        end
+    end
 end)
 
-9.MouseButton1Click:Connect(function(9)
+zero.MouseButton1Click:Connect(function(tenClick)
+    if numberEntered == false then
+        
+        numberEntered = true
+        x = 0
     
-end)
-
-0.MouseButton1Click:Connect(function(0)
-    
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 0
+        end
+    end
 end)
 
 period.MouseButton1Click:Connect(function(Period)

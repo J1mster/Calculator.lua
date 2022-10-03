@@ -59,6 +59,13 @@ local numberEntered = false
         numberEntered = true
         x = 1
     
+    elseif numberEntered == true then
+        
+        if y = "none" then
+            
+            y = 1
+            
+        end
     end
 end)
 

@@ -18,6 +18,7 @@
 
 
 
+
 --Dictionary
 local Buttons = script.Parent.Parent.Cosmetics.Buttons
 
@@ -41,7 +42,9 @@ local sub = Buttons.Arithmetic["-"]
 local mul = Buttons.Arithmetic["x"]
 local div = Buttons.Arithmetic["/"]
 
+
 --Strings
+local subjectNumber = 0
 local x = "none"
 local y = "none"
 local equation = "none"
@@ -49,159 +52,188 @@ local currentStep = "none"
 local ASMD = "none"
 local numberEntered = false
 
+local Decimals = false
+
 
 
 --Script
 
 one.MouseButton1Click:Connect(function(oneClick)
-    if numberEntered == false then
-        if x == ""
-            
-            
-            
-            
-        numberEntered = true
-        x = 1
+    subjectNumber = 1
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 1
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
+
 two.MouseButton1Click:Connect(function(twoClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 2
+    subjectNumber = 2
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 2
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 three.MouseButton1Click:Connect(function(threeClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 3
+    subjectNumber = 3
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 3
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 four.MouseButton1Click:Connect(function(fourClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 4
+    subjectNumber = 4
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 4
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 five.MouseButton1Click:Connect(function(fiveClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 5
+    subjectNumber = 5
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 5
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end
 six.MouseButton1Click:Connect(function(sixClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 6
+    subjectNumber = 6
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 6
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 seven.MouseButton1Click:Connect(function(sevenClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 7
+    subjectNumber = 7
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 7
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 eight.MouseButton1Click:Connect(function(eightClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 8
+    subjectNumber = 8
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 8
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 nine.MouseButton1Click:Connect(function(nineClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 9
+    subjectNumber = 9
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 9
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)
 
 zero.MouseButton1Click:Connect(function(tenClick)
-    if numberEntered == false then
-        
-        numberEntered = true
-        x = 0
+    subjectNumber = 0
     
-    elseif numberEntered == true then
-        
-        if y = "none" then
-            
-            y = 0
+    if equation == "none" then
+        if x == "none" then
+            x = subjectNumber
+        else
+            x = (x .. subjectNumber)
+        end
+    else
+        if y == "none" then
+            y == subjectNumber
+        else
+            y = (y .. subjectNumber)
         end
     end
 end)

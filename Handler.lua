@@ -239,7 +239,14 @@ zero.MouseButton1Click:Connect(function(tenClick)
 end)
 
 period.MouseButton1Click:Connect(function(Period)
-    
+    if x == "none" then
+        x == "0."
+    else
+        x == x .. "."
+    end
+            
+            
+            --DO Y
 end)
 
 negate.MouseButton1Click:Connect(function(Negate)

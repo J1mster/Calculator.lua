@@ -51,8 +51,7 @@ local equation = "none"
 local currentStep = "none"
 local ASMD = "none"
 local numberEntered = false
-
-local Decimals = false
+local currentlyOn == "x"
 
 
 
@@ -240,21 +239,30 @@ end)
 
 period.MouseButton1Click:Connect(function(Period)
     if x == "none" then
-        x == "0."
+        x = "0."
     else
-        x == x .. "."
+        if y == "none" then
+            if currentlyOn == "x"
+                if x == "none"
+                    x = x .. "0."
+                end
+            else 
+                y = y .. "."
+            end
+        end
     end
-            
-            
-            --DO Y
 end)
 
 negate.MouseButton1Click:Connect(function(Negate)
-    
+    if currentOn == "x" then
+        x == "-" .. x
+    elseif currentOn == "y"
+        y == "-" .. y
+    end
 end)
 
 fraction.MouseButton1Click:Connect(function(Fraction)
-    
+    equation = x/y
 end)
 
 add.MouseButton1Click:Connect(function(Add)
